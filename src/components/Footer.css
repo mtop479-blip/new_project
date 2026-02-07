@@ -1,0 +1,28 @@
+.footer {
+  background: #0f172a;
+  color: white;
+  padding: 60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-content li {
+  cursor: pointer;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #cbd5f5;
+}
