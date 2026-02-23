@@ -156,3 +156,8 @@ button:focus-visible {
 .nav-links li:hover {
   color: #2563eb;
 }
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #f8fafc;
+}

@@ -1,43 +1,64 @@
 .navbar {
+  padding: 20px 8%;
+  background: white;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
-  border-bottom: 1px solid #6288f1;
+  align-items: center;
 }
 
-.nav-left h2 {
-  font-weight: bold;
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
 }
 
-.nav-center {
-  display: flex;
-  gap: 25px;
+.logo span {
+  color: #6366f1;
+}
+
+.nav-links {
   list-style: none;
-}
-
-.nav-right {
   display: flex;
-  gap: 15px;
-}
-
-.login {
-  background: none;
-  border: none;
-  font-size: 14px;
+  gap: 30px;
+  color: #475569;
+  font-weight: 500;
   cursor: pointer;
 }
 
-.demo {
-  background-color: #2563eb;
+.nav-links li:hover {
+  color: #111827;
+}
+
+.nav-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.sign-in {
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  color: #334155;
+}
+
+.demo-btn {
+  background: #4f46e5;
   color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
   border: none;
-  padding: 8px 14px;
-  border-radius: 6px;
+  font-weight: 500;
   cursor: pointer;
+  transition: 0.3s;
 }
-.whatch {
-    background-color: #2563eb;
-    color:#eee;
-    border: none;
+
+.demo-btn:hover {
+  background: #4338ca;
 }

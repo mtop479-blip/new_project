@@ -1,26 +1,25 @@
-import "./Navbar.css";
+import "./navbar.css";
 
-function Navbar() {
+export default function Navbar() {
   return (
     <nav className="navbar">
-      <div className="nav-left">
-        <h2>Garage360</h2>
-      </div>
+      <div className="nav-container">
+        <div className="logo">
+          Garage<span>360</span>.
+        </div>
 
-      <ul className="nav-center">
-        <li>Features</li>
-        <li>Shop Types</li>
-        <li>Resources</li>
-        <li>Pricing</li>
-      </ul>
+        <ul className="nav-links">
+          <li>Features</li>
+          <li>Shop Types</li>
+          <li>Resources</li>
+          <li>Pricing</li>
+        </ul>
 
-      <div className="nav-right">
-        <button className="login">Sign In</button>
-        <button className="demo">Request Demo</button>
-        <button className="whatch">whatch Demo vedio</button>
+        <div className="nav-actions">
+          <button className="sign-in">Sign In</button>
+          <button className="demo-btn">Request Demo</button>
+        </div>
       </div>
     </nav>
   );
 }
-
-export default Navbar;
