@@ -1,26 +1,44 @@
-function Features() {
+import "./Features.css";
+
+export default function Features() {
   return (
-    <section className="features">
-      <h2>Everything you need to run your shop</h2>
+    <section className="features1">
 
-      <div className="features-grid">
+      <h2 className="features-title">
+        Run your whole shop—without the busywork
+      </h2>
+
+      <p className="features-subtitle">
+        Everything you need to manage estimates, work orders, invoicing,
+        scheduling, and more in one unified auto repair shop software.
+      </p>
+
+      <div className="features-cards">
+
         <div className="feature-card">
-          <h3>Scheduling</h3>
-          <p>Easily manage appointments and keep work moving.</p>
+          <div className="icon blue">📋</div>
+          <h3>Estimates & Work Orders</h3>
+          <p>
+            Create professional estimates in seconds, convert to work orders
+            with one click, and track approval status at a glance.
+          </p>
         </div>
 
         <div className="feature-card">
-          <h3>Estimates & Invoices</h3>
-          <p>Create professional estimates and invoices in minutes.</p>
+          <div className="icon green">💳</div>
+          <h3>Invoicing & Payments</h3>
+          <p>
+            Invoice from the bay—or your office—and collect payment online
+            via link, card, or Apple/Google Pay.
+          </p>
         </div>
 
-        <div className="feature-card">
-          <h3>Inventory</h3>
-          <p>Track parts and avoid running out of stock.</p>
-        </div>
       </div>
-    </section>
-  );
-}
+      
+      
 
-export default Features;
+    </section>
+    
+  );
+  
+}
